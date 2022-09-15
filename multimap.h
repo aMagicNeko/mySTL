@@ -34,7 +34,7 @@ namespace mySTL{
             void clear(){
                 t.clear();
             }
-            iteratorinsert(const_reference x){
+            iterator insert(const_reference x){
                 return t.insert_equal(x);
             }
             T& operator[](const key_type& k){
